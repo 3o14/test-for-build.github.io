@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+    고객명 : <input type="text" ><br><br>
+    전화번호 :<input type="text"><br><br>
+    E-mail : <input type="text"><br><br>
+    <br />
+    <label >피자 선택 : </label>
+    
+    <select name="pets" id="pet-select">
+        <option value="default">피자를 선택하세요.</option>
+        <option value="hawaian">하와이안 피자.</option>
+        <option value="apple">하와이안 피자.</option>
+        <option value="banana">하와이안 피자.</option>
+        <option value="">하와이안 피자.</option>
+    </select>
+        <br />
+        
+    <fieldset>
+        <legend> 피자 사이즈 </legend>
+        <input type="radio" name="size1" value="small">Small<br><br>
+        <input type="radio" name="size2" value="medium">Mediium<br><br>
+        <input type="radio" name="size3" value="large"> Large<br><br>
+    </fieldset>
+    <fieldset>
+        <legend> 토핑선택 </legend>
+        <input type="checkbox" name="topping1" value="베이컨">베이컨<br><br>
+        <input type="checkbox" name="topping2" value="치즈">치즈<br><br>
+        <input type="checkbox" name="topping3" value="양파"> 양파<br><br>
+        <input type="checkbox" name="topping4" value="버섯"> 버섯<br><br>
+    </fieldset>
+    <p>희망배송기간: <input type="time" name="mytime"></p>
+    <label for="">배송시 요청사항 : </label>
+    <textarea cols="50" rows="3"></textarea>
+    <br/>
+    <button type="submit">주문하기</button>
+    </form>
+</body>
+</html>
